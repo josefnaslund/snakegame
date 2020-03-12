@@ -28,7 +28,7 @@ namespace Snake
         // ===================
 
         // size of building blocks should be a factor of picturebox height and width
-        private int block_size = 20;
+        private int block_size = 50;
 
 
         // keep track of growing the snake after eating
@@ -494,6 +494,9 @@ namespace Snake
 
             label_restart.Visible = false;
             label_start.Visible = false;
+
+            dirX = 1;
+            dirY = 0;
 
 
         }
